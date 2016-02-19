@@ -1,0 +1,6 @@
+{
+  "sensu_slack": {
+    "uchiwa_url": "http://myuchiwaserver:3000/#/events",
+    "slack_webhook_url": "https://hooks.slack.com/.../"
+  }
+}

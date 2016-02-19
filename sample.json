@@ -1,0 +1,49 @@
+{
+    "action": "create",
+    "check": {
+        "executed": 1455836222,
+        "handlers": [
+            "default",
+            "mailer"
+        ],
+        "history": [
+            "2",
+            "2",
+            "2",
+            "0",
+            "2",
+            "2",
+            "2"
+        ],
+        "issued": 1455836222,
+        "name": "test check",
+        "output": "TEST OUTPUT",
+        "refresh": 1800,
+        "status": 2,
+        "thresholds": {
+            "critical": 300,
+            "warning": 60
+        },
+        "total_state_change": 21
+    },
+    "client": {
+        "address": "127.0.0.1",
+        "keepalive": {
+            "handlers": [
+                "default"
+            ],
+            "refresh": 1800,
+            "thresholds": {
+                "critical": 300,
+                "warning": 60
+            }
+        },
+        "name": "test client",
+        "subscriptions": [],
+        "timestamp": 1455831205,
+        "version": "0.20.3"
+    },
+    "id": "deadbeef",
+    "occurrences": 1,
+    "timestamp": 1455836222
+}

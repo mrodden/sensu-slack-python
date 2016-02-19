@@ -1,0 +1,6 @@
+config.json
+*.swp
+*.py[c,o]
+
+.venv
+.tox
