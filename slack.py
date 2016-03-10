@@ -77,4 +77,5 @@ def main():
     urllib2.urlopen(webhook_url, payload)
 
 
-main()
+if __name__=='__main__':
+    main()
